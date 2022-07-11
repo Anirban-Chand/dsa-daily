@@ -48,5 +48,9 @@ Sort the given array using Quick Sort technique.<br>
 ## Selection Sort
 Sort the given array using Selection Sort technique.
 
-## Minimum Amount of Time to Fill Cups
+## Minimum Amount of Time to Fill Cups - Leetcode 2335
 <a href="https://leetcode.com/contest/weekly-contest-301/problems/minimum-amount-of-time-to-fill-cups/">Find Problem Description Here</a>
+
+## Smallest Number in Infinite Set - Leetcode 2336
+<a href="https://leetcode.com/contest/weekly-contest-301/problems/smallest-number-in-infinite-set/">Find Problem Description Here</a>
+
