@@ -48,4 +48,5 @@ Sort the given array using Quick Sort technique.<br>
 ## Selection Sort
 Sort the given array using Selection Sort technique.
 
-##
+## Minimum Amount of Time to Fill Cups
+<a href="https://leetcode.com/contest/weekly-contest-301/problems/minimum-amount-of-time-to-fill-cups/">Find Problem Description Here</a>
