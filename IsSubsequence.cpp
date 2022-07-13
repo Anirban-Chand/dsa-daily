@@ -9,8 +9,8 @@ public:
     bool solve(string &s, string &t, int i, string temp){
         if(i==t.size()){
             if(temp == s) 
-                return 1;
-            return 0;
+                return true;
+            return false;
         }
         
         bool dontTake = solve(s, t, i+1, temp);
