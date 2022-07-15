@@ -1,3 +1,4 @@
+/*
 ***Approach:*** 
 Step-1: Take a 2D array of bool values to keep track of the cells if they are visited or not,
 Step-2: Write the recursive function for DFS,
@@ -8,7 +9,7 @@ Step-6: Take a variable maxArea that will keep track of maximum area possible ti
 Step-7: return maxArea.
 
 ***DFS Solution:***
-```
+*/
 class Solution {
 public:
     int dfsForIsland(vector<vector<int>>& grid, int i, int j, vector<vector<bool>>& visited){
@@ -46,4 +47,3 @@ public:
         return maxArea;
     }
 };
-```
