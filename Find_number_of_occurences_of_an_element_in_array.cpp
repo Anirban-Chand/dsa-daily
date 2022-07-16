@@ -30,7 +30,6 @@ int findLastOccurence(int *arr, int start, int end, int key){
 
     int mid = (start+end)/2;
 
-    // base case
     if(arr[mid] == key){
         ans = mid;
         return findLastOccurence(arr, mid+1, end, key);
