@@ -21,7 +21,7 @@ int binarySearchUsingRecursion(int *arr, int start, int end, int key){
 
 
 int main(){
-    int arr[] = {10,31,44,62,81,99,110,122,153,190,212,302};
+    int arr[] = {10,31,44,62,81,99,110,122,190,212,302};
     int x; 
     cout<<"enter element to search: ";
     cin>>x;
