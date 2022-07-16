@@ -8,10 +8,10 @@ void findAllSubsequences(string s, int idx, string subsequence, vector<string>& 
         return;
     }
 
-    // exclude
+    // dont take
     findAllSubsequences(s, idx+1, subsequence, ans);
 
-    // include
+    // take
     int ch = s[idx];
     subsequence+=ch;
     findAllSubsequences(s, idx+1, subsequence, ans);
