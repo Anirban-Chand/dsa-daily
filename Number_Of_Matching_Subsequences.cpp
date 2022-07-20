@@ -1,3 +1,4 @@
+// C++
 class Solution {
 public:
     int numMatchingSubseq(string s, vector<string>& words) {
@@ -20,3 +21,30 @@ public:
         return ans;
     }
 };
+
+
+// Python
+class Solution:
+    def numMatchingSubseq(self, s: str, words: List[str]) -> int:
+        n = len(words);
+        ans=0;
+        mp = {};
+        for word in words: 
+            if word in mp:
+                mp[word] += 1
+            else:    
+                mp[word] = 1
+        
+        for word, freq in mp.items():
+            i, j = 0, 0
+            while i<len(s) and j<len(word):
+                if s[i] == word[j]:
+                    j+=1
+                i+=1
+                if i==len(s): 
+                    break
+            
+            if j==len(word): 
+                ans+=mp[word];
+        
+        return ans;
