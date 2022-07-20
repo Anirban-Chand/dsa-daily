@@ -2,10 +2,11 @@ class Solution {
 public:
     int numMatchingSubseq(string s, vector<string>& words) {
         int n = words.size();
-        int ans=0;
+        
         unordered_map<string, int> mp;
         for(auto word: words) mp[word]++;
         
+        int ans=0;
         for(auto it : mp){
             string word = it.first;
             int i=0,j=0;
